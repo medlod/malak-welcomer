@@ -47,7 +47,7 @@ bot.on('guildMemberAdd', member => {
         return;
       };
       
-      let str = `Salam **${member.user.username}** Merba bik f ${member.guild} ` //wrong id?
+      let str = `Salam **${member.user.username}** Merba bik f **${member.guild}** ` //wrong id?
       const embed = new Discord.RichEmbed()
       .setAuthor(member.user.tag, memberavatar)
       .setColor('363A3F')

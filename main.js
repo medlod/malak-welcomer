@@ -40,7 +40,7 @@ bot.on('guildMemberAdd', member => {
   let count = member.guild.memberCount.toString() 
   let end = count[count.length-1]
   let suffixed = end == 1 ? count + "st" : end == 2 ? count + "nd" : end == 3 ? count + "rd" : count + "th" 
-  const channel = member.guild.channels.find(chnl => chnl.name === 'welcome');
+  const channel = member.guild.channels.find(chnl => chnl.name === 'welcome🎉');
   const memberavatar = member.user.displayAvatarURL
       if (!channel) {
         console.log("Channel Not found.");

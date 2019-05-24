@@ -1,12 +1,10 @@
 {
   "owners": [
-    "340766966077980674",
-    "203617993853370368",
-    "483729964890325004"
+    "354690959272837130"
   ],
   "invite": null,
   "prefix": "*",
-  "token": "your.token.here",
+  "token": "NTgxNTAzNDQ1MTUyOTU2NDE2.XOgOgw.8HZaH1e_dteJuNWVjelDyazU8cI",
   "dbots_token": null,
   "log_channel": "486692591170224128",
   "__COMMENT__": "This is the section that used to be TESTCFG.JSON",
